@@ -25,6 +25,21 @@ enum DateFormat: String {
     case EEE = "EEE"
     case ddMMM = "dd MMM"
     case MMMMddyyyy = "MMMM dd, yyyy"
+    
+    case yy = "yy" // years
+    case yyyy = "yyyy"
+    case MM = "MM" // months
+    case MMM = "MMM"
+    case MMMM = "MMMM"
+    case dd = "dd" // day
+    case E = "E"
+    case EEEE = "EEEE"
+    case hh = "hh" // hours
     case HH = "HH"
-    case dd = "dd"
+    case a = "a"
+    case mm = "mm" // minute
+    case ss = "ss" // seconds
+    case SSS = "SSS"
+    case Z = "Z" // Time Zone
+    case zzz = "zzz"
 }
