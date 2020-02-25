@@ -1,7 +1,6 @@
 
-Pod::Spec.new do |spec|
+Pod::Spec.new do |s|
 
-  spec.name          = 'FLDateKit'
   s.name             = 'FLDateKit'
   s.version          = '0.0.1'
   s.summary          = 'Date Wrapper for iOS by Fox Labs.'
