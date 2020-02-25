@@ -13,6 +13,7 @@
 		9FC4F22C24050223008C47DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4F22A24050223008C47DD /* Main.storyboard */; };
 		9FC4F22E24050225008C47DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4F22D24050225008C47DD /* Assets.xcassets */; };
 		9FC4F23124050225008C47DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC4F22F24050225008C47DD /* LaunchScreen.storyboard */; };
+		9FC4F23A240509D9008C47DD /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4F239240509D9008C47DD /* Date+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9FC4F22D24050225008C47DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC4F23024050225008C47DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC4F23224050225008C47DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC4F239240509D9008C47DD /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		DB4ACAB2F4AFAAD6EB7EBBAE /* Pods-FLDateKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLDateKit.debug.xcconfig"; path = "Target Support Files/Pods-FLDateKit/Pods-FLDateKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 		9FC4F23824050256008C47DD /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9FC4F239240509D9008C47DD /* Date+String.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			files = (
 				9FC4F22924050223008C47DD /* ViewController.swift in Sources */,
 				9FC4F22524050223008C47DD /* AppDelegate.swift in Sources */,
+				9FC4F23A240509D9008C47DD /* Date+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
