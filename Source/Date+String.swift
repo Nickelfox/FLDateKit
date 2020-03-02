@@ -14,4 +14,9 @@ public extension Date {
         return "THIS IS POD DEMO"
     }
     
+    var today: Date {
+        return Date()
+    }
+    
+    
 }
