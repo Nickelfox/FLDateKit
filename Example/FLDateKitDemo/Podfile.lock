@@ -1,0 +1,16 @@
+PODS:
+  - FLDateKit (0.0.1)
+
+DEPENDENCIES:
+  - FLDateKit (from `../../`)
+
+EXTERNAL SOURCES:
+  FLDateKit:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  FLDateKit: 92f92a29ed5db6fe2d31432b6a27dd296a69c3f2
+
+PODFILE CHECKSUM: 7af37b9257e15f011f8b3b7591e77048115239bb
+
+COCOAPODS: 1.8.3

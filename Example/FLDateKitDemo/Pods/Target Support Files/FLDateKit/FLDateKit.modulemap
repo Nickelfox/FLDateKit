@@ -1,0 +1,6 @@
+framework module FLDateKit {
+  umbrella header "FLDateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

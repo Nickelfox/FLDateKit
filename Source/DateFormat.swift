@@ -42,4 +42,9 @@ enum DateFormat: String {
     case SSS = "SSS"
     case Z = "Z" // Time Zone
     case zzz = "zzz"
+    
+    var value: String {
+        return self.rawValue
+    }
+    
 }
