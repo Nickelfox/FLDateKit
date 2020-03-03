@@ -11,13 +11,26 @@ import Foundation
 
 public extension Date {
     
-    private func getDateFormatter(format: String,
-                                  am: String = "AM",
-                                  pm: String = "PM") -> DateFormatter {
+    func getDateFormatter(format: String,
+                          am: String = "AM",
+                          pm: String = "PM") -> DateFormatter {
         let formatter = DateFormatter()
         formatter.dateFormat = format
         formatter.amSymbol = am
         formatter.pmSymbol = pm
+        return formatter
+    }
+    
+    func getDateFormatter(format: String,
+                          am: String = "AM",
+                          pm: String = "PM",
+                          timeZone: TimeZone, locale: Locale) -> DateFormatter {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        formatter.amSymbol = am
+        formatter.pmSymbol = pm
+        formatter.locale = locale
+        formatter.timeZone = timeZone
         return formatter
     }
     
